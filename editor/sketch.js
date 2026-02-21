@@ -212,8 +212,6 @@ addFromPrefix("controls_", "controls", "#FFCC00", [
 
 addFromPrefix("logic_", "logic", "#002CB9", []);
 
-addCategory("colour", "#FFF800", "color");
-
 const workspace = Blockly.inject("block-editor", {
   plugins: {
     toolbox: ContinuousToolbox,
